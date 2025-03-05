@@ -1,0 +1,17 @@
+sudo apt-get update -y
+
+
+sude apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+
+sudo mv /usr/lib/python3.11/EXTERNALLY-MANAGED /usr/lib/python3.11/EXTERNALLY-MANAGED.old
+
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+
+sudo python3 get-pip.py
